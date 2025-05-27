@@ -1,0 +1,20 @@
+{
+    "name": "johan/composer",
+    "autoload": {
+        "psr-4": {
+            "Johan\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iJohanAcero",
+            "email": "johanacero8@gmail.com"
+        }
+    ],
+    "scripts": {
+        "dev": "php index.php"
+    },
+    "require": {
+        "monolog/monolog": "3.0"
+    }
+}
