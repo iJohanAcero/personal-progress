@@ -1,0 +1,17 @@
+{
+    "name": "johan/phpmailer",
+    "autoload": {
+        "psr-4": {
+            "Johan\\Phpmailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iJohanAcero",
+            "email": "johanacero8@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
