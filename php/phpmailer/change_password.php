@@ -40,8 +40,7 @@ require_once 'config/config.php';
                         </div>
 
 
-                        <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100 ">Iniciar sesion</button></div>
-                        <div id="emailHelp" class="form-text text-center mb-5 text-dark">Olvidaste tu contraseñaP? <a href="recovery.php" class="text-dark fw-bold"> recuperar contraseña</a>
+                        <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100 ">Cambiar contraseña</button></div>
                         </div>
                     </form>
                 </div>

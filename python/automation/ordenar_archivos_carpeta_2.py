@@ -16,6 +16,7 @@ ruta = filedialog.askdirectory(title="Seleccione la carpeta a ordenar")
 
 extensiones = {
     ".jpg":"imagenes",
+    ".jpeg":"imagenes",
     ".png":"imagenes",
     ".pdf":"PDFs",
     ".docx":"Words",
