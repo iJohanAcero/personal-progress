@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo prueba</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Prueba de laravel</h1>
-    <p>Probando laravel </p>
+    <h1> Bienvenidos a la prueba de usando laravel</h1>
 </body>
 </html>

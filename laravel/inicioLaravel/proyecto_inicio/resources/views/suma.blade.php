@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suma de dos numeros</title>
+    <title>Suma sencillla prueba</title>
 </head>
 <body>
-    <h2> Sumar dos numeros </h2>
+    <h1> Sumar dos numeros </h1>
     <form action="/suma" method="POST">
         @csrf
         <label for="num1">Numero 1:</label>
-        <input type="number" name="num1" id="num1" required>
+        <input type="number" id="num1" name="num1" required>
         <br>
         <label for="num2">Numero 2:</label>
-        <input type="number" name="num2" id="num2" required>
+        <input type="number" id="num2" name="num2" required>
         <br>
         <button type="submit">Sumar</button>
     </form>
+    <br>
+    @if(isset($res))
+        <h2>Resultado: {{ $res }}</h2>
+    @endif
 </body>
-</html> 
+</html>

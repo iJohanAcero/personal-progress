@@ -1,0 +1,15 @@
+{
+    "name": "johan/inicio-laravel",
+    "autoload": {
+        "psr-4": {
+            "Johan\\InicioLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iJohanAcero",
+            "email": "johanacero8@gmail.com"
+        }
+    ],
+    "require": {}
+}
